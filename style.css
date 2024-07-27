@@ -1,0 +1,112 @@
+figure img {
+  width: 20rem;
+  border-radius: 5px;
+  background-position: center;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+body {
+  background: hsl(217, 54%, 11%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+figure {
+  background: hsl(216, 50%, 16%);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  height: 80vh;
+  margin: 20px auto;
+  width: 22vw;
+}
+h2 {
+  color: white;
+  font-family: "outfit";
+  font-size: 18px;
+  font-weight: 500;
+}
+.eth {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.dateimg {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  gap: 5rem;
+  color: white;
+  justify-content: space-between;
+}
+.head {
+  font-family: "outfit";
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin: 10px auto;
+}
+.datetext {
+  color: hsl(178, 100%, 50%);
+  font-family: "outfit";
+}
+.timetext {
+  color: hsl(215, 51%, 70%);
+  font-family: "outfit";
+  display: flex;
+  justify-content: space-between;
+}
+.creator {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* gap: 0.5rem; */
+  margin: 15px 0;
+  justify-content: left;
+  gap: 2rem;
+}
+
+.creatorimg img {
+  width: 3rem;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: cell;
+}
+.name {
+  /* margin: 50px; */
+  font-family: "outfit";
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+  gap: 1rem;
+}
+b {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background: hsl(215, 51%, 70%);
+}
+.ethimg img {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 460px) {
+  figure img {
+    width: 10rem;
+    border-radius: 2px;
+  }
+}
